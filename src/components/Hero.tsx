@@ -68,14 +68,14 @@ export default function Hero() {
               >
                 View Projects
               </button>
-              <a
-                href="/cv.pdf"
+              {/* <a
+                href="assets/alexandria-kharatyan-ui-engineer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="glass-card rounded-xl px-6 py-3 text-sm font-semibold text-white transition-all hover:scale-105"
               >
                 Download CV
-              </a>
+              </a> */}
               <button
                 onClick={() => handleClick("#contact")}
                 className="rounded-xl border border-white/10 px-6 py-3 text-sm font-semibold text-muted transition-all hover:border-accent/30 hover:text-white"

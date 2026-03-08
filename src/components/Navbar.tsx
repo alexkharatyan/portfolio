@@ -100,7 +100,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/artworks"
-              className="rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:text-white"
+              className="rounded-lg bg-accent/10 px-3 py-2 text-sm font-medium text-accent-light transition-all hover:bg-accent/20 hover:text-white"
             >
               Artworks
             </Link>
@@ -168,7 +168,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/artworks"
-                  className="block rounded-lg px-4 py-2.5 text-sm text-muted transition-colors hover:text-white"
+                  className="block rounded-lg bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent-light transition-all hover:bg-accent/20 hover:text-white"
                   onClick={() => setMobileOpen(false)}
                 >
                   Artworks

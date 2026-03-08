@@ -72,7 +72,7 @@ export default function ArtworksPage() {
               className="mt-8 flex flex-wrap items-center justify-center gap-4"
             >
               <a
-                href="https://www.instagram.com/alexandria_art_app"
+                href="https://www.instagram.com/alexa_ndriaart"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/3 px-5 py-2.5 text-sm font-medium text-white/80 transition-all hover:border-pink-500/30 hover:bg-pink-500/5 hover:text-white"
