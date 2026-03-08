@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { navItems } from "@/data/navigation";
 
@@ -96,6 +97,14 @@ export default function Navbar() {
               </li>
             );
           })}
+          <li>
+            <Link
+              href="/artworks"
+              className="rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:text-white"
+            >
+              Artworks
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile toggle */}
@@ -156,6 +165,15 @@ export default function Navbar() {
                   </li>
                 );
               })}
+              <li>
+                <Link
+                  href="/artworks"
+                  className="block rounded-lg px-4 py-2.5 text-sm text-muted transition-colors hover:text-white"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  Artworks
+                </Link>
+              </li>
             </ul>
           </motion.div>
         )}
