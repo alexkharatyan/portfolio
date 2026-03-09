@@ -65,14 +65,14 @@ export const projects: Project[] = [
     link: "https://mlri.org.am/en",
     badge: "Public",
   },
-  {
-    title: "HAFO",
-    summary:
-      "Web presence for the Armenian Foundation organization, showcasing programs, events, and community initiatives.",
-    technologies: ["JavaScript", "HTML5", "CSS3", "Responsive Design"],
-    link: "https://hafo.am/",
-    badge: "Public",
-  },
+  // {
+  //   title: "HAFO",
+  //   summary:
+  //     "Web presence for the Armenian Foundation organization, showcasing programs, events, and community initiatives.",
+  //   technologies: ["JavaScript", "HTML5", "CSS3", "Responsive Design"],
+  //   link: "https://hafo.am/",
+  //   badge: "Public",
+  // },
   {
     title: "Picsart Design System",
     summary:
